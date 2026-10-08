@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rootcanal.ssonydental.com/sitemap.xml
