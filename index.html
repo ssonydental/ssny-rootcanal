@@ -1059,8 +1059,16 @@ section[data-depth="final_cta"]{background:#E4DAF2}
   .wordmark .subname{font-size:.55rem}
 }
 @media (max-width:359px){.wordmark .subname{display:none}.topbar .call-pill,.topbar .book-pill{padding:8px 11px}}
-@media (max-width:479px){.topbar .wordmark{display:none}.topbar .call-pill,.topbar .book-pill{padding:8px 12px;font-size:.8rem}.topbar-actions{gap:6px}}
-@media (max-width:359px){.topbar .call-pill,.topbar .book-pill{padding:8px 9px;font-size:.74rem}}
+@media (max-width:479px){
+  .topbar{padding:8px 10px;gap:8px}
+  .brand{gap:6px;min-width:0;flex:1 1 auto}
+  .brand-logo{height:28px;width:28px}
+  .topbar .wordmark{display:block;font-size:.7rem;line-height:1.15;max-width:104px}
+  .topbar .wordmark .subname{font-size:.5rem;letter-spacing:.03em}
+  .topbar-actions{gap:5px}
+  .topbar .call-pill,.topbar .book-pill{padding:7px 9px;font-size:.72rem;min-height:40px}
+}
+@media (max-width:374px){.topbar .wordmark{font-size:.64rem;max-width:88px}.topbar .wordmark .subname{display:none}.topbar .call-pill,.topbar .book-pill{padding:7px 8px;font-size:.68rem}}
 </style>
 <noscript><style>
 .reveal,.reveal > *,.fin-intro > *{opacity:1!important;transform:none!important;transition:none!important}
